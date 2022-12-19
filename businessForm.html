@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contract</title>
+  </head>
+  <body>
+    <h1>Send us your files</h1>
+    <hr>
+    <p>Please note: First Name, Last Name, Password, and Email are required</p>
+    <br>
+    <form class="" action="signedUpPage.html" method="get">
+      <label for="First">First Name:</label>
+      <input type="text" name="name" placeholder="First Name" required>
+      <label for="Last">Last Name:</label>
+      <input type="text" name="name" placeholder="Last Name" required><br>
+      <br>
+      <label for="Email">Email:</label>
+      <input type="gmail" name="gmail" placeholder="yourname@gmail.com" required>
+      <label for="Password">Password:</label>
+      <input type="password" name="password" value="" required>
+
+        <br>
+        <!-- Radio button -->
+        <p>Have you read the <strong>terms and conditions </strong>before uploading the required
+            folder for us to put in creating your desired website?</p>
+            <label for="yes">Yes:</label>
+            <input type="radio" name="vaild" value="">
+            <label for="no">No:</label>
+            <input type="radio" name="vaild" value="">
+            <br>
+
+                <!-- File uploading -->
+                <h2>Upload your file here</h2>
+                <input type="file" class="form-control-file" id="file">
+                    <br><br>
+                 How do you wish to pay the host of your website?<br><br>
+                 <select  name="payment">
+                   <option value="Cc">Credit card</option>
+                   <option value="Pp">Paypal</option>
+                   <option value="Db">Debit card</option>
+                   <option value="CashApp">Cash app</option>
+                 </select>
+
+                 <!-- Client's comment and suggestion/complaint box: -->
+                 <h3>How do you want your website to look like?</h3>
+                 <p>Feel free to upload any sample website to the comment/suggestion/complaint box</p>
+                 <textarea name="Client's review" rows="8" cols="80" placeholder="Client's comments................ "></textarea>
+                 <br>
+                 <br>
+
+                 <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
